@@ -1,0 +1,79 @@
+:root {
+  /* 主题色 */
+  --color-primary: #1677FF;
+  --color-primary-hover: #4096FF;
+  --color-primary-active: #0958D9;
+  --color-primary-light: #E8F3FF;
+  --color-bg-page: #FAFAFC;
+  --color-bg-white: #FFFFFF;
+  --color-bg-gray: #F5F7FA;
+  --color-sidebar-bg: #F0F2F5;
+  --color-text-primary: #333333;
+  --color-text-secondary: #666666;
+  --color-text-hint: #999999;
+  --color-shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.06);
+  --color-shadow-md: 0 2px 8px rgba(0, 0, 0, 0.08);
+  --color-shadow-lg: 0 4px 16px rgba(0, 0, 0, 0.10);
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --space-xs: 8px;
+  --space-sm: 12px;
+  --space-md: 16px;
+  --space-lg: 20px;
+  --space-xl: 24px;
+  --font-family: 'Inter', 'Microsoft YaHei', 'PingFang SC', sans-serif;
+  --transition-fast: 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+
+  font-family: var(--font-family);
+  line-height: 1.6;
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--color-text-primary);
+  background-color: var(--color-bg-page);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #FAFAFC;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+a {
+  font-weight: 500;
+  color: #1677FF;
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+a:hover {
+  color: #4096FF;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+#app {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
